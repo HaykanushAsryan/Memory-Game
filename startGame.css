@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gameStart {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/backgrounfPic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+        
+}
+
+.start {
+    width: 200px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%;
+    background: rgba(128, 128, 128, 0.422);
+    border: 5px solid rgba(128, 128, 128, 0.223);
+    position: relative;
+    top: 50%;
+    left: 45%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    color: rgb(26, 26, 26);
+
+}
+
+.start:hover {
+    box-shadow: 5px 3px 5px 10px whitesmoke;
+    color: whitesmoke;
+    width: 210px;
+    height: 110px;
+}
